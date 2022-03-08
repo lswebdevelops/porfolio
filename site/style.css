@@ -7,3 +7,42 @@ body{
 .div3{
     justify-content: center; 
 }
+
+        #container{
+            display: flex;
+            flex-wrap:wrap;
+        }
+        #container > div {
+            background-color: springgreen;
+            font-size: 20px;
+            margin: 2px;
+            padding: 20px;
+            width: 400px;
+        }
+   
+        /* div {
+  background-color: #00FFFF; */
+/* } */
+#pf_s {
+    width: 40%;
+    /* border: 1px solid black; */
+    float: left;
+    margin: 5px;
+    padding: 5px;
+  }
+  /* #p1 {
+    background-color: #A52A2A;
+    
+  }
+  #p2 {
+    background-color: #DEB887;
+  } */
+  #section_f_s {
+    clear: left;
+  }
+  
+  #body_f_s{
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
